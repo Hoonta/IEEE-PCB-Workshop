@@ -157,6 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<fusionteam huburn="a.YnVzaW5lc3M6bXltc3Q3MA" projecturn="a.YnVzaW5lc3M6bXltc3Q3MCNEMjAxOTA4MDkyMDc4MTg3MzE" folderUrn="urn:adsk.wipprod:fs.folder:co.8YhHYE5BSFWxzllyymmc2g" urn="urn:adsk.wipprod:dm.lineage:AF43pUYHQe-WOiGaY0QGug"  versionUrn="urn:adsk.wipprod:fs.file:vf.AF43pUYHQe-WOiGaY0QGug?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="ea0b55b8-2ebf-661b-ee91-0fbb8423b642"/>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
@@ -12020,17 +12021,17 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </instance>
 <instance part="J3" gate="G$1" x="218.44" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="223.52" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="223.52" y="81.28" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="233.68" y="81.28" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="J1" gate="G$1" x="25.4" y="124.46" smashed="yes">
-<attribute name="VALUE" x="15.24" y="134.62" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="15.24" y="124.46" size="1.778" layer="95" font="vector"/>
+<instance part="J1" gate="G$1" x="127" y="124.46" smashed="yes">
+<attribute name="VALUE" x="116.84" y="134.62" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="116.84" y="124.46" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="48.26" y="132.08" smashed="yes" rot="R270">
-<attribute name="VALUE" x="51.435" y="133.985" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY1" gate="G$1" x="149.86" y="132.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="153.035" y="133.985" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND3" gate="1" x="38.1" y="124.46" smashed="yes">
-<attribute name="VALUE" x="35.56" y="121.92" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="139.7" y="124.46" smashed="yes">
+<attribute name="VALUE" x="137.16" y="121.92" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12069,13 +12070,13 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GNDBREAK"/>
-<wire x1="27.94" y1="129.54" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="129.54" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="129.54" x2="137.16" y2="127" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="35.56" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="35.56" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
-<junction x="35.56" y="127"/>
+<wire x1="137.16" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
+<junction x="137.16" y="127"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12122,7 +12123,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="PWR"/>
-<wire x1="27.94" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="+9V"/>
 </segment>
 </net>

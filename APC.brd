@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.4" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -157,6 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionteam huburn="a.YnVzaW5lc3M6bXltc3Q3MA" projecturn="a.YnVzaW5lc3M6bXltc3Q3MCNEMjAxOTA4MDkyMDc4MTg3MzE" folderUrn="urn:adsk.wipprod:fs.folder:co.8YhHYE5BSFWxzllyymmc2g" urn="urn:adsk.wipprod:dm.lineage:KiODAIRFQY2HNacvR4rF_Q"  versionUrn="urn:adsk.wipprod:fs.file:vf.KiODAIRFQY2HNacvR4rF_Q?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="6d384e75-355f-0882-d55c-e2830962eb86"/>
 <plain>
 <wire x1="0" y1="43.18" x2="24.872" y2="43.18" width="0" layer="20"/>
 <wire x1="24.872" y1="43.18" x2="24.872" y2="100" width="0" layer="20"/>
@@ -9177,7 +9178,6 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="11.43" y="77.47"/>
 <vertex x="11.43" y="82.55"/>
 <vertex x="6.35" y="87.63"/>
-<vertex x="6.35" y="99.06"/>
 <vertex x="6.35" y="99.06"/>
 <vertex x="11.43" y="99.06"/>
 <vertex x="11.43" y="86.36"/>
